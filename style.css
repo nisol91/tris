@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgrey;
+}
+.griglia {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.element {
+  border: 1px solid grey;
+  height: calc( 100% / 3 );
+  width: calc( 100% / 3 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.templates {
+  display: none;
+}
+.green {
+  background: green;
+}
+.yellow {
+  background: yellow;
+}
