@@ -60,7 +60,7 @@ $(document).ready(function() {
       });
     }
 
-    if (numericorretti.includes(0) && numericorretti.includes(1) && numericorretti.includes(2) || numericorretti.includes(0) && numericorretti.includes(4) && numericorretti.includes(8) || numericorretti.includes(0) && numericorretti.includes(3) && numericorretti.includes(6) || numericorretti.includes(2) && numericorretti.includes(4) && numericorretti.includes(6) || numericorretti.includes(2) && numericorretti.includes(5) && numericorretti.includes(8) || numericorretti.includes(6) && numericorretti.includes(7) && numericorretti.includes(8) || numericorretti.includes(1) && numericorretti.includes(4) && numericorretti.includes(7)) {
+    if (numericorretti.includes(0) && numericorretti.includes(1) && numericorretti.includes(2) || numericorretti.includes(0) && numericorretti.includes(4) && numericorretti.includes(8) || numericorretti.includes(0) && numericorretti.includes(3) && numericorretti.includes(6) || numericorretti.includes(2) && numericorretti.includes(4) && numericorretti.includes(6) || numericorretti.includes(2) && numericorretti.includes(5) && numericorretti.includes(8) || numericorretti.includes(6) && numericorretti.includes(7) && numericorretti.includes(8) || numericorretti.includes(1) && numericorretti.includes(4) && numericorretti.includes(7) || numericorretti.includes(3) && numericorretti.includes(4) && numericorretti.includes(5)) {
       alert('hai vinto')
     }
 
